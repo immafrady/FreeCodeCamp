@@ -29,7 +29,7 @@ function checkCashRegister(price, cash, cid) {
         cache = cache / 100;
         // 如果钱箱里的钱比cache多
         change[i].push(cache);
-        // 计算钱箱剩余的钱
+        // 计算钱箱剩余的钱（多余的，可写可不写）
         cid[i][1] -= cache;
       } else {
         //钱全赔进去
